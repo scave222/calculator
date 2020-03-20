@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="text-center pt-4">CALCULATOR</h1> <br>
+    <form class="container " name="calculator">
+        <div class="row pt-2">
+            <div class="col-md-2 col-sm-12"></div>
+            <div class="col-md-8 col-sm-12 pt-4 calculator">
+                <input type="text"  name="display" class="result" id="display" placeholder="   Answer" disabled>
+                <div class="container">
+                    <div class="row pt-4 text-center">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-5 col-sm-12 pt-4 text-center" id="input" >
+                            <input id="input1" type="text" placeholder="    Type a number"></input>
+                        </div>
+                        <div class="col-md-5 col-sm-12 pt-4 text-center" id="input">
+                            <input id="input2" type="text" placeholder="   Type a number"></input>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                </div>    
+            <div class="col-md-2 col-sm-12"></div>
+
+
+                <div class="container">
+                 <div class="row text-center">
+                     <div class="col-md-6 pt-4">
+                    <button type="button" class="btn btn-secondary button" id="button1" name="plus" value="+">&#043;</button>
+                    </div>
+                    <div class="col-md-6 pt-4">
+                    <button type="button" class="btn btn-secondary button" id="button2" name="minus" value="-" >&#045;</button>
+                     </div>
+                 </div>
+                </div>
+
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-6 pt-4">
+                       <button type="button" class="btn btn-secondary button" id="button3" name="div" value="/" >&#047;</button>
+                       </div>
+                       <div class="col-md-6 pt-4">
+                       <button type="button" class="btn btn-secondary button" id="button4" name="times" value="*" >&#042;</button>
+                        </div>
+                    </div>
+                   </div>
+
+
+                   <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-12 pt-4 pb-4">
+                       <button type="button" class="btn btn-secondary button" id="button5" name="modulus" value="%" >&#037;</button>
+                       </div>
+                       
+                    </div>
+                   </div>
+                
+               
+              
+        </div>
+
+
+
+    </form>
+
+
+
+  
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/calculator.js"></script>
+</body>
+</html>
